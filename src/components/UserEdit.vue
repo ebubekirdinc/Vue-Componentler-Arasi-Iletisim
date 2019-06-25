@@ -16,7 +16,7 @@
         this.age = 30;
         // this.$emit("ageWasEdited", this.age);
         // eventBus.$emit("ageWasEdited", this.age);
-        eventBus.changeAge(this.age);
+        eventBus.changeAge(this.age); //eventBus =>2 child arasi alisveris icin ,buyuk uygulamalarda Vuex kullanilir.
       }
     }
   }
